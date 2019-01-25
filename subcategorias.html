@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Texture High</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase py-2" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Texture High</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase text-white btn bg-primary" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto mt-3">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown p-0">
+        		<a class="nav-link btn dropdown-toggle py-3 px-0 px-lg-3" id="drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: left;">Product</a>
+        		<div class="dropdown-menu bg-secondary">
+        			<a class="nav-link py-3 px-3" href="categorias.html">Categories</a>
+              <form class="form-inline my-2 my-lg-0 p-3">
+                <div class="input-group input-group-sm">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Search..." id="navInput">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary btn-number">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1btn">
+              <a class="nav-link py-3 px-0 px-lg-3" href="shopping.html"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1btn">
+              <a class="nav-link py-3 px-0 px-lg-3" href="register.html"><i class="fas fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="ml-lg-5 pl-lg-5"><a href="index.html">Home</a><i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i></li>
+        <li><a href="categorias.html">Categories</a><i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i></li>
+        <li class="breadcrumb-item active">Subcategories</li>
+      </ol>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-4">
+        <div class="col-12 col-sm-3">
+            <div class="card bg-light mb-3">
+                <div class="card-header bg-secondary text-white text-uppercase"><i class="fa fa-list"></i> Categories</div>
+                <ul class="list-group category_block">
+                    <a href="#"><li class="list-group-item">General Running</li></a>
+                    <a href="#"><li class="list-group-item">Cross Running</li></a>
+                    <a href="#"><li class="list-group-item">Trail Running</li></a>
+                    <a href="#"><li class="list-group-item">Track Running</li></a>
+                    <a href="#"><li class="list-group-item">Running Pool</li></a>
+                </ul>
+            </div>
+            <div class="card mb-3">
+              <div class="card-body">
+                <form class="text-secondary">
+                  <h5>Order by...</h5>
+                  <select name="cars" class="custom-select mb-3">
+                    <option selected>...</option>
+                    <option>Cheapest</option>
+                    <option>Best seller</option>
+                    <option>Highest rating</option>
+                  </select>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck">
+                    <label class="custom-control-label" for="customCheck" style="cursor: pointer;">T-shirt</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1" style="cursor: pointer;">Long Sleeve Shirt</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2" style="cursor: pointer;">Sleeveless</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3" style="cursor: pointer;">Tights</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4" style="cursor: pointer;">Sweatpants</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5" style="cursor: pointer;">Shoes</label>
+                  </div>
+                  <br>
+                  <h5>Price...</h5>
+                  <label for="customRange">0€</label>
+                  <label for="customRange1" style="float: right;">500€</label>
+                  <input type="range" class="custom-range" id="customRange">
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-secondary mb-3" id="borde">
+                        <a href="producto.html"><img class="card-img-top" src="img/camiseta2.jpg" alt="Card image cap"></a>
+                        <div class="card-body text-white">
+                            <h4 class="card-title"><a href="producto.html" title="View Product">Product title</a></h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">12,95 €</p>
+                                </div>
+                                <div class="col">
+                                    <a href="shopping.html" class="btn btn-primary btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-secondary mb-3" id="borde">
+                        <a href="producto.html"><img class="card-img-top" src="img/camiseta2.jpg" alt="Card image cap"></a>
+                        <div class="card-body text-white">
+                            <h4 class="card-title"><a href="producto.html" title="View Product">Product title</a></h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">12,95 €</p>
+                                </div>
+                                <div class="col">
+                                    <a href="shopping.html" class="btn btn-primary btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-secondary mb-3" id="borde">
+                        <a href="producto.html"><img class="card-img-top" src="img/camiseta2.jpg" alt="Card image cap"></a>
+                        <div class="card-body text-white">
+                            <h4 class="card-title"><a href="producto.html" title="View Product">Product title</a></h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">12,95 €</p>
+                                </div>
+                                <div class="col">
+                                    <a href="shopping.html" class="btn btn-primary btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-secondary mb-3" id="borde">
+                        <a href="producto.html"><img class="card-img-top" src="img/camiseta2.jpg" alt="Card image cap"></a>
+                        <div class="card-body text-white">
+                            <h4 class="card-title"><a href="producto.html" title="View Product">Product title</a></h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">12,95 €/p>
+                                </div>
+                                <div class="col">
+                                    <a href="shopping.html" class="btn btn-primary btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-secondary mb-3" id="borde">
+                        <a href="producto.html"><img class="card-img-top" src="img/camiseta2.jpg" alt="Card image cap"></a>
+                        <div class="card-body text-white">
+                            <h4 class="card-title"><a href="producto.html" title="View Product">Product title</a></h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">12,95 €</p>
+                                </div>
+                                <div class="col">
+                                    <a href="shopping.html" class="btn btn-primary btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-secondary mb-3" id="borde">
+                        <a href="producto.html"><img class="card-img-top" src="img/camiseta2.jpg" alt="Card image cap"></a>
+                        <div class="card-body text-white">
+                            <h4 class="card-title"><a href="producto.html" title="View Product">Product title</a></h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btn btn-danger btn-block">12,95 €</p>
+                                </div>
+                                <div class="col">
+                                    <a href="shopping.html" class="btn btn-primary btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+	
+	<footer class="footer text-center bg-secondary text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p class="lead mb-0">2148 High Street Road
+              <br>Mock up, S/ 65243</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">About Texture High</h4>
+            <p class="lead mb-0">Texture High is a web page to buy the best sport clothes.
+              <a href="#">Here we are!</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
