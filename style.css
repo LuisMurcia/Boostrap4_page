@@ -221,7 +221,7 @@ table input:focus{
     border-radius: 4px;
     cursor: zoom-in;
 }
-.gallery-wrap .img-small-wrap img:hover, .gallery-wrap .img-big-wrap img:hover, .img-md:hover {
+.gallery-wrap .img-small-wrap img:hover, .gallery-wrap .img-big-wrap img:hover, .img-md:hover, .card-img-top:hover {
     filter: brightness(1.1);
     transition: all ease 1s;
 }
@@ -245,4 +245,8 @@ table input:focus{
 }
 .img-md{
 	border: 1px solid #ddd;
+}
+td img{
+	width: 50px;
+	filter: brightness(1.1);
 }
