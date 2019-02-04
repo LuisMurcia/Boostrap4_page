@@ -114,6 +114,14 @@ a:focus, a:hover, a:active {
 	display: none;
   }
 }
+@media (max-width: 500px) {
+	section {
+		padding: 3rem;
+	}
+	#productos {
+		padding-top: 6rem;
+	}
+}
 .portfolio .portfolio-item, #now .portfolio-item {
 	position: relative;
 	display: block;
